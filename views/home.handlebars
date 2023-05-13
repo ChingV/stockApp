@@ -1,0 +1,11 @@
+<h1>Handlebar home</h1>
+<div class="jumbo">
+    <h1 class="display-4">{{stock.companyName}} {{stock.symbol}}</h1>
+    <h3>Previous Close:</h3> ${{stock.previousClose}}
+    <h3>Lastest Price:</h3>${{stock.latestPrice}}
+    <h3>Precentage Change:</h3> ${{stock.changePercent}}
+</div>
+{{!-- <p>{{stock}}</p> --}}
+{{!-- {{#each stock}}
+    {{@key}} | {{this}}<br />
+    {{/each}} --}}
